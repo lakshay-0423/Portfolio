@@ -75,3 +75,21 @@ nav ul li a:hover {
   color: #ddd;
   letter-spacing: 1px;
 }
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #580c96;
+  color: #fff;
+  transition: background 0.3s ease;
+}
