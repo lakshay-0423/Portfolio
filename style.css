@@ -53,3 +53,17 @@ nav ul li a {
 nav ul li a:hover {
   color: #f4b400; /* golden highlight */
 }
+
+/* Hero Section */
+#home {
+  background-size: 400% 400%;
+  background-color: #02469e;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
