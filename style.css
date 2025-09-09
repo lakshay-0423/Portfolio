@@ -67,3 +67,11 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
 }
+
+/* Skills tagline */
+.skills-tagline {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #ddd;
+  letter-spacing: 1px;
+}
