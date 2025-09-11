@@ -106,3 +106,18 @@ nav ul li a:hover {
 .btn.secondary:hover {
   background: #333;
 }
+
+/* About Section */
+#about {
+  padding: 80px 50px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap; /* makes it responsive */
+}
