@@ -107,6 +107,15 @@ nav ul li a:hover {
   background: #333;
 }
 
+.scroll-down {
+  margin-top: 40px;
+  font-size: 28px;
+  animation: bounce 1.5s infinite;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
 /* About Section */
 #about {
   padding: 80px 50px;
