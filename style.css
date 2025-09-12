@@ -116,6 +116,11 @@ nav ul li a:hover {
   color: white;
 }
 
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
 /* About Section */
 #about {
   padding: 80px 50px;
