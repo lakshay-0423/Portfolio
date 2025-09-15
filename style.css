@@ -198,3 +198,18 @@ nav ul li a:hover {
   margin-bottom: 20px;
   line-height: 1.5;
 }
+
+.project-links a {
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin: 0 5px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.project-links a:hover {
+  background: #580c96; /* matches your navbar color */
+}
