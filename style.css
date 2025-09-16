@@ -231,3 +231,27 @@ nav ul li a:hover {
   color: white;
   margin-bottom: 30px;
 }
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.contact-links a:hover {
+  background: #580c96; /* navbar color */
+}
