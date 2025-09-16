@@ -213,3 +213,21 @@ nav ul li a:hover {
 .project-links a:hover {
   background: #580c96; /* matches your navbar color */
 }
+
+/* Contact Section */
+#contact {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#contact p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
