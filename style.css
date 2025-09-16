@@ -255,3 +255,16 @@ nav ul li a:hover {
 .contact-links a:hover {
   background: #580c96; /* navbar color */
 }
+
+/* Footer */
+footer {
+  background:#00204a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
