@@ -268,3 +268,19 @@ footer p {
   margin-bottom: 10px;
   font-size: 14px;
 }
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #580c96; /* navbar purple */
+}
