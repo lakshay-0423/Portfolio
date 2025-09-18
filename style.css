@@ -1,8 +1,8 @@
-/* Reset some default browser styles */
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 html {
@@ -12,8 +12,9 @@ html {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background: linear-gradient(270deg, #1c012e, #680a98, #1c012e, #00204a); 
   background-size: 400% 400%;
-  background-color: #02469e;
+  animation: gradientBG 15s ease infinite;
 }
 
 /* Navbar Styles */
@@ -55,10 +56,17 @@ nav ul li a:hover {
   color: #f4b400; /* golden highlight */
 }
 
+/* Add some spacing at top so content doesn't hide behind navbar */
+section {
+  padding: 80px 50px;
+  margin-top: 60px;
+}
+
 /* Hero Section */
 #home {
+  background: linear-gradient(270deg, #1c012e, #680a98, #1c012e, #00204a); /* animated gradient */
   background-size: 400% 400%;
-  background-color: #02469e;
+  animation: gradientBG 15s ease infinite; /* animated gradient */
   color: white;
   text-align: center;
   padding: 120px 20px;
@@ -67,6 +75,13 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* Skills tagline */
@@ -94,7 +109,6 @@ nav ul li a:hover {
   color: #fff;
   transition: background 0.3s ease;
 }
-
 
 .btn:hover {
   background: #333;
@@ -152,6 +166,7 @@ nav ul li a:hover {
   color: white;
   line-height: 1.6;
 }
+
 
 /* Projects Section */
 #projects {
@@ -285,6 +300,10 @@ footer p {
   color: #580c96; /* navbar purple */
 }
 
+section {
+  scroll-margin-top: 80px; /* matches your navbar height */
+}
+
 /* typing effect for hero */
 .typing {
   display: inline-block;
@@ -299,7 +318,7 @@ footer p {
 /* Typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 14ch; }  
+  to { width: 14ch; }
 }
 
 /* Cursor blinking */
