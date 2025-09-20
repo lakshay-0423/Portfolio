@@ -350,3 +350,25 @@ section {
     transform: translateY(0);
   }
 }
+
+/* ============ RESPONSIVE DESIGN ============ */
+
+/* Tablets and smaller screens */
+@media (max-width: 1024px) {
+  nav ul {
+    gap: 20px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 90%;
+  }
+
+  .project-card {
+    max-width: 90%;
+  }
+}
