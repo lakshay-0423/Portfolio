@@ -114,5 +114,19 @@
             <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
+
+    <script>
+        const cards = document.querySelectorAll('.project-card');
+
+        cards.forEach(card => {
+            card.addEventListener('click', function(e) {
+                // Prevent video trigger if a button/link inside .project-links is clicked
+                if (e.target.closest('.project-links a')) {
+                    return;
+                }
+                card.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
