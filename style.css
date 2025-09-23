@@ -492,3 +492,25 @@ section {
 .project-card.active .project-video-wrapper {
   bottom: 0; /* slide video up */
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .btn:hover,
+  .btn.secondary:hover {
+    background: #580c96 !important;
+    color: #fff !important;
+  }
+  .project-links a:hover {
+    background: #333 !important;
+    color: #fff !important;
+  }
+  .contact-links a:hover {
+    background: #333 !important;
+    color: #fff !important;
+  }
+  .footer-links a:hover {
+    color: #fff !important;
+  }
+  nav ul li a:hover {
+    color: #fff !important;
+  }
+}
